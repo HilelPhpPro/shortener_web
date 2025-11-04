@@ -1,5 +1,5 @@
 {
-    "name": "hillel/shortener-w",
+    "name": "hillel-php/shortener-w",
     "version": "1.0.0",
     "description": "Create simple library Example",
     "type": "library",
