@@ -33,4 +33,6 @@ interface ICodeRepository
      */
     public function getCodeByUrl(string $url): string;
 
+    public function getAll(): array;
+
 }

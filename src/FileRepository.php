@@ -88,4 +88,10 @@ class FileRepository implements ICodeRepository
     {
         $this->writeFile(json_encode($this->db, JSON_PRETTY_PRINT)); // json_encode($this->db) це те, що потрапляє в аргумент
     }
+
+    public function getAll(): array
+    {
+        return $this->db;
+    }
+
 }
